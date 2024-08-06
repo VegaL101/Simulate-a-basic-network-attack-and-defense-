@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective is to simulate a network attack and learn how to defend against it. We will be using the virtual machines we set up in a earlier project wich will be linked <a href >here</a> Ubuntu as the defending vM and Kali Linux as the attacker VM
+The objective is to simulate a network attack and learn how to defend against it. We will be using the virtual machines we set up in a earlier project wich will be linked <a href="https://github.com/VegaL101/Setting-up-a-basic-home-lab" >here</a> Ubuntu as the defending vM and Kali Linux as the attacker VM
 
 ### Skills Learned
 
