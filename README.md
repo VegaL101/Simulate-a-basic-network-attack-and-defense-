@@ -43,15 +43,17 @@ as shown below.
   Step 2:
   Simulate the attack.
   
- To simulate our attack, we first need to obtain the IP address of our Ubuntu machine. Open a terminal and type the command: 'ip a'. <br>Then look for the line that starts with 'inet' near the bottom.This line will display your ip address. In the image shown below our ip address is 'inet 10.0.2.15'. Your ip address should look similar, make sure to take note of it as we will be using this ip address for our simulation.
+For this step we are utilizing both our Ubuntu and Kali Linux vm so make sure to have them both on during this step.<br>
+To simulate our attack, we first need to obtain the IP address of our Ubuntu machine. Open a terminal and type the command: 'ip a'. <br>Then look for the line that starts with 'inet' near the bottom.This line will display your ip address. In the image shown below our ip address is 'inet 10.0.2.15'. Your ip address should look similar, make sure to take note of it as we will be using this ip address for our simulation.
   
  ![ubuntu ip](https://github.com/user-attachments/assets/590c5758-8f99-416f-9df2-895743023ec8)
 
 ##
   
-  The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the log_in_attempts table. Then, I used a WHERE clause with an OR operator to filter my results to output only login attempts that occurred on either 2022-05-09 or 2022-05-08. The first condition is login_date = '2022-05-09', which filters for logins on 2022-05-09. The second condition is login_date = '2022-05-08', which filters for logins on 2022-05-08.
+  Next, we'll open up wireshark on Ubuntu by entering the command: 'sudo wireshark' in the terminal, once opened you should be presented with the screen below 
   
-  
+  ![ubuntu wireshark menu](https://github.com/user-attachments/assets/488576cb-b7ab-4087-9221-4f3f8cab2a7b)
+
   
   Step 3:
   Retrieve login attempts outside of Mexico.
