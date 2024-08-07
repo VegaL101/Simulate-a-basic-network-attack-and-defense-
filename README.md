@@ -12,8 +12,10 @@ This project will not only help us understand the vulnerabilities within our net
 
 ### Skills Learned
 
-- learned how to apply filters to SQL queries.
-- gained the ability join tables to get specific information from databases.
+- Learned how to use tools to identify weaknesses in a network.
+- Gain hands-on experience in configuring and managing security measures such as firewalls.
+- Learn how to monitor network traffic for signs of suspicious or malicious activity.
+- Practice ethical hacking techniques to exploit vulnerabilities in a controlled environment.  
   
 
 
