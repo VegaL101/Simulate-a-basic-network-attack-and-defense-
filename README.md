@@ -26,14 +26,16 @@ Step 1:
 Install necessary tools for this projects.
 
 In this step, we will install the necessary tools for our project. First, we install Wireshark on our Ubuntu VM. Wireshark is a widely-used open-source network protocol analyzer that enables you to capture and examine network traffic. It provides in-depth details about network packets and protocols, making it an essential tool for network troubleshooting, analysis, and security.<br>
-To install Wireshark, open a terminal on your Ubuntu VM and enter the following command as shown in the image below: sudo apt install wireshark<br>
+To install Wireshark, open a terminal on your Ubuntu VM and enter the following command: sudo apt install wireshark<br>
+as shown below.<br>
 once installed, you can use wireshark to to monitor and analyze traffic.
 
 ![ubuntu wireshark](https://github.com/user-attachments/assets/224dfe18-d01b-4d46-b1c0-cd66132300e9)
 
 ##
   
-Next, we will be installing 'Wireshark', 'Nmap', and 'Metasploit-framework' for our Kali Linux VM.<br> Nmap is a network scanning tool for discovering hosts and services on a network.<br> Metasploit-framework is a framework for developing and executing exploits against systems with vulnerabilities. widely used for penetration testing.   
+Next, we will be installing 'Wireshark', 'Nmap', and 'Metasploit-framework' for our Kali Linux VM.<br> Nmap is a network scanning tool for discovering hosts and services on a network.<br> Metasploit-framework is a framework for developing and executing exploits against systems with vulnerabilities. widely used for penetration testing.<br> to install these tools we'll be entering the command: sudo apt install -y nmap wireshark metasploit-framework <br>
+as shown below.
   
   ![kali wireshark and tools addition](https://github.com/user-attachments/assets/0f8ed183-d66f-429a-803d-4fb94054862d)
 
