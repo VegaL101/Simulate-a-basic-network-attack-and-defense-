@@ -39,16 +39,16 @@ as shown below.
   
 ![kali wireshark and tools addition](https://github.com/user-attachments/assets/0f8ed183-d66f-429a-803d-4fb94054862d)
 
-  ##
-  Step 2:
-  Simulate the attack.
+##
+Step 2:
+Simulate the attack.
   
 For this step we are utilizing both our Ubuntu and Kali Linux vm so make sure to have them both on during this step.<br>
 To simulate our attack, we first need to obtain the IP address of our Ubuntu machine. Open a terminal and type the command: 'ip a'. <br>Then look for the line that starts with 'inet' near the bottom.This line will display your ip address. In the image shown below our ip address is 'inet 10.0.2.15'. Your ip address should look similar, make sure to take note of it as we will be using this ip address for our simulation.
   
  ![ubuntu ip](https://github.com/user-attachments/assets/590c5758-8f99-416f-9df2-895743023ec8)
 
-##
+ ##
   
   Next, we'll open up wireshark on Ubuntu by entering the command: 'sudo wireshark' in the terminal, once opened you should be presented with the screen below.<br>
   Click on "capture" and then "start" on the bottom right.
@@ -57,12 +57,15 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
 
   ##
 
-Click on "capture" and then "start" on the bottom right. Now Wireshark is capturing network traffic. Anything captured by wireshark will be presented below. 
+ Now Wireshark is capturing network traffic. Anything captured by wireshark will be presented below. 
 
 ![ubuntu wireshark 3](https://github.com/user-attachments/assets/f1642461-cf36-45f5-b03e-834ae3a12122)
 
   ##
-  
+
+  Next, we go on our Kali Linux machine open a terminal and enter the command: 'nmap -A (ip address)'.<br> in your case you'll use the ip address from your UBuntu VM because thats your target.<br> Although in this example we'll be using 'namp -A 10.0.2.15' as shown below and press enter.
+
+  ![nmap](https://github.com/user-attachments/assets/a2852354-fb33-41ad-9fdc-5e1687e30df0)
 
   Step 3:
   Retrieve login attempts outside of Mexico.
@@ -74,6 +77,7 @@ Click on "capture" and then "start" on the bottom right. Now Wireshark is captur
   FIrst i selected all data from the log_in_attempts table. Then, I used a WHERE  with NOT to retrieve login attempts everywhere but Mexico . I used LIKE with MEX% to find anything that starts with “Mex”  since both MEX and MEXICO can appear on the dataset. 
   
   
+
   
   Step 4:
   Retrieve employees in Marketing.
