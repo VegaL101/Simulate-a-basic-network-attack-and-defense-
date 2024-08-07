@@ -25,9 +25,10 @@ This project will not only help us understand the vulnerabilities within our net
 Step 1:
 Install necessary tools for this projects.
 
-in this step we will be installing the tools needed for this project. First on our Ubuntu VM will install Wireshark. Wireshark is a popular open-source network protocol analyzer that allows you to capture and browse the traffic running on a computer network. It provides a detailed view of network packets and protocols, making it an invaluable tool for network troubleshooting, analysis, and security.
+in this step we will be installing the tools needed for this project. First on our Ubuntu VM will install Wireshark. Wireshark is a popular open-source network protocol analyzer that allows you to capture and browse the traffic running on a computer network. It provides a detailed view of network packets and protocols, making it an invaluable tool for network troubleshooting, analysis, and security. We will be entering the command down below to install it.
 
-  ![sql portfolio](https://github.com/VegaL101/computer-updates-lab/assets/166334918/d683dae1-99bd-4431-80a3-2c3ea7c36e38)
+![ubuntu wireshark](https://github.com/user-attachments/assets/224dfe18-d01b-4d46-b1c0-cd66132300e9)
+
   
   The first part of the screenshot is my query, and the second part is a portion of the output. This query filters for failed login attempts that occurred after 18:00. First, I started by selecting all data from the log_in_attempts table. Then, I used a WHERE clause with an AND operator to filter my results to output only login attempts that occurred after 18:00 and were unsuccessful. The first condition is login_time > '18:00', which filters for the login attempts that occurred after 18:00. The second condition is success = FALSE, which filters for the failed login attempts.
   
