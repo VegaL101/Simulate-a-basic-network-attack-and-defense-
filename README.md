@@ -37,16 +37,17 @@ once installed, you can use wireshark to to monitor and analyze traffic.
 Next, we will be installing 'Wireshark', 'Nmap', and 'Metasploit-framework' for our Kali Linux VM.<br> Nmap is a network scanning tool for discovering hosts and services on a network.<br> Metasploit-framework is a framework for developing and executing exploits against systems with vulnerabilities. widely used for penetration testing.<br> to install these tools we'll be entering the command: sudo apt install -y nmap wireshark metasploit-framework <br>
 as shown below.
   
-  ![kali wireshark and tools addition](https://github.com/user-attachments/assets/0f8ed183-d66f-429a-803d-4fb94054862d)
+![kali wireshark and tools addition](https://github.com/user-attachments/assets/0f8ed183-d66f-429a-803d-4fb94054862d)
 
-  
+  ##
   Step 2:
-  Retrieve login attempts on specific dates.
+  Simulate the attack.
   
-  A suspicious event occurred on 2022-05-09. Any login activity that happened on 2022-05-09 or on the day before needs to be investigated.
-  The following code demonstrates how I created a SQL query to filter for login attempts that occurred on specific dates.
+ To simulate our attack, we first need to obtain the IP address of our Ubuntu machine. OPen a terminal and type the command: 'ip a'. Then look for the line that starts with 'inet' near the bottom.<br>This line will display your ip address. In this example shown below our ip address is 'inet 10.0.2.15'. Your ip address should look similar, make sure to take a not of it as we will be using this ip address for our simulation.
   
-  ![sql portfolio 2](https://github.com/VegaL101/computer-updates-lab/assets/166334918/c76ecf2d-ceac-4d44-8bc8-9e81c966b341)
+ ![ubuntu ip](https://github.com/user-attachments/assets/590c5758-8f99-416f-9df2-895743023ec8)
+
+##
   
   The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the log_in_attempts table. Then, I used a WHERE clause with an OR operator to filter my results to output only login attempts that occurred on either 2022-05-09 or 2022-05-08. The first condition is login_date = '2022-05-09', which filters for logins on 2022-05-09. The second condition is login_date = '2022-05-08', which filters for logins on 2022-05-08.
   
