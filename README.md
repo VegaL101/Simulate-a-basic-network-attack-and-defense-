@@ -2,7 +2,13 @@
 
 ## Objective
 
-The objective is to simulate a network attack and learn how to defend against it. We will be using the virtual machines we set up in a earlier project wich will be linked <a href="https://github.com/VegaL101/Setting-up-a-basic-home-lab" >here</a> Ubuntu as the defending vM and Kali Linux as the attacker VM
+In this project, we aim to simulate a network attack and learn how to defend against such threats. Utilizing the virtual machines previously configured in the project before this one which will be linked <a href="">here</a>, we will set up a scenario where:
+
+Ubuntu VM will act as the defending system, tasked with protecting against potential threats.
+Kali Linux VM will serve as the attacker, simulating various types of network attacks to test and evaluate our defensive measures.
+This exercise will not only help us understand the vulnerabilities within our network but also improve our ability to deploy effective countermeasures. By analyzing attack vectors and implementing robust defense strategies, we will gain practical experience in maintaining network security.
+
+
 
 ### Skills Learned
 
