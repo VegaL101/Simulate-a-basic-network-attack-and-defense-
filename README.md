@@ -50,7 +50,8 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
 
 ##
   
-  Next, we'll open up wireshark on Ubuntu by entering the command: 'sudo wireshark' in the terminal, once opened you should be presented with the screen below 
+  Next, we'll open up wireshark on Ubuntu by entering the command: 'sudo wireshark' in the terminal, once opened you should be presented with the screen below.<br>
+  Click on "capture" and then "start" on the bottom right.
   
   ![ubuntu wireshark menu](https://github.com/user-attachments/assets/488576cb-b7ab-4087-9221-4f3f8cab2a7b)
 
