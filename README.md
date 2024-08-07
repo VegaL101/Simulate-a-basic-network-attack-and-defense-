@@ -25,14 +25,18 @@ This project will not only help us understand the vulnerabilities within our net
 Step 1:
 Install necessary tools for this projects.
 
-in this step we will be installing the tools needed for this project. First on our Ubuntu VM will install Wireshark. Wireshark is a popular open-source network protocol analyzer that allows you to capture and browse the traffic running on a computer network. It provides a detailed view of network packets and protocols, making it an invaluable tool for network troubleshooting, analysis, and security. We will be entering the command down below to install it.
+In this step, we will install the necessary tools for our project. First, we install Wireshark on our Ubuntu VM. Wireshark is a widely-used open-source network protocol analyzer that enables you to capture and examine network traffic. It provides in-depth details about network packets and protocols, making it an essential tool for network troubleshooting, analysis, and security.<br>
+To install Wireshark, open a terminal on your Ubuntu VM and enter the following command as shown in the image below: sudo apt install wireshark<br>
+once installed, you can use wireshark to to monitor and analyze traffic.
 
 ![ubuntu wireshark](https://github.com/user-attachments/assets/224dfe18-d01b-4d46-b1c0-cd66132300e9)
 
+##
   
-  The first part of the screenshot is my query, and the second part is a portion of the output. This query filters for failed login attempts that occurred after 18:00. First, I started by selecting all data from the log_in_attempts table. Then, I used a WHERE clause with an AND operator to filter my results to output only login attempts that occurred after 18:00 and were unsuccessful. The first condition is login_time > '18:00', which filters for the login attempts that occurred after 18:00. The second condition is success = FALSE, which filters for the failed login attempts.
+Next, we will be installing 'Wireshark', 'Nmap', and 'Metasploit-framework' for our Kali Linux VM.<br> Nmap is a network scanning tool for discovering hosts and services on a network.<br> Metasploit-framework is a framework for developing and executing exploits against systems with vulnerabilities. widely used for penetration testing.   
   
-  
+  ![kali wireshark and tools addition](https://github.com/user-attachments/assets/0f8ed183-d66f-429a-803d-4fb94054862d)
+
   
   Step 2:
   Retrieve login attempts on specific dates.
