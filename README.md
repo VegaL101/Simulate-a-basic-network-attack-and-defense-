@@ -43,7 +43,7 @@ as shown below.
   Step 2:
   Simulate the attack.
   
- To simulate our attack, we first need to obtain the IP address of our Ubuntu machine. Open a terminal and type the command: 'ip a'. <br>Then look for the line that starts with 'inet' near the bottom.This line will display your ip address. In this example shown below our ip address is 'inet 10.0.2.15'. Your ip address should look similar, make sure to take a not of it as we will be using this ip address for our simulation.
+ To simulate our attack, we first need to obtain the IP address of our Ubuntu machine. Open a terminal and type the command: 'ip a'. <br>Then look for the line that starts with 'inet' near the bottom.This line will display your ip address. In the image shown below our ip address is 'inet 10.0.2.15'. Your ip address should look similar, make sure to take note of it as we will be using this ip address for our simulation.
   
  ![ubuntu ip](https://github.com/user-attachments/assets/590c5758-8f99-416f-9df2-895743023ec8)
 
