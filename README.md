@@ -54,7 +54,15 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
   
   ![ubuntu wireshark menu](https://github.com/user-attachments/assets/488576cb-b7ab-4087-9221-4f3f8cab2a7b)
 
+  ##
+
+Click on "capture" and then "start" on the bottom right. Now Wireshark is capturing network traffic. Anything captured by wireshark will be presented below. 
+
+![ubuntu wireshark 3](https://github.com/user-attachments/assets/f1642461-cf36-45f5-b03e-834ae3a12122)
+
+  ##
   
+
   Step 3:
   Retrieve login attempts outside of Mexico.
   
