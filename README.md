@@ -93,9 +93,21 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
 
   ![ufw install ubuntu](https://github.com/user-attachments/assets/f1e7941c-5aa7-4608-a367-b33b40c4d494)
 
+  We will also enter the command: 'sudo ufw enable ssh' this enables configuration to allow incoming traffic on the default SSH port (port 22). It ensures that SSH connections can reach your server.
+  <br> This will also provide security as it provides secure, encrypted communication between a client and a server.
+
+![sudo allow ssh ubuntu](https://github.com/user-attachments/assets/d7df4231-71c2-4adf-b2f1-4158e53af6e4)
+
+UFW (Uncomplicated Firewall) offers flexible options and can be configured as you like.
+
 ##
 
-Now that you've done everything about you can check the status of your UFW to make sure everything is up and running. To do this enter the command: 'sudo ufw status'
+Now to test if an aggressive network scan from our Kali Linux VM will successfully reach the Ubuntu VM after configuring the firewall,  we will again use the 'nmap -A' command.<br>
+If the firewall is configured properly, you should encounter the message 'Host seems down. If it is really up, but blocking our ping probes, try -pn' This indicates that the firewall has successfully defended the system. <br> It should look like the example below.
+
+![nmap fail](https://github.com/user-attachments/assets/1e5987ae-ba01-4d9c-a3ce-569a6d1bafeb)
+
+##
 
 
 
