@@ -76,6 +76,11 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
   
   ![tcp packets](https://github.com/user-attachments/assets/8e0cac63-5911-4f4d-9b30-3d875550841c)
 
+  After a while the tcp packets will begin to go away as activity resumes back to normal.
+
+  ![tcp packets going back to normal](https://github.com/user-attachments/assets/c75c1a8b-65d5-4180-9808-a9fdc7e66ca9)
+
+  
   Step 3:
   Retrieve login attempts outside of Mexico.
   
