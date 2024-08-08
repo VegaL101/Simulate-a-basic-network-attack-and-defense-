@@ -67,6 +67,15 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
 
   ![nmap](https://github.com/user-attachments/assets/a2852354-fb33-41ad-9fdc-5e1687e30df0)
 
+  If performed correctly, you should see a message saying "Host is up," indicating that your network scan successfully reached the target VM. The nmap -A command is an aggressive scan that sends  TCP packets to collect detailed information about the target system. By using nmap -A, you can gather 
+  details about the target VM, including its operating system, running services, and open ports.
+
+  ##
+
+  Now we go back to Wireshark running on your Ubuntu VM YOU should see a bunch of tcp packets that wireshark has captured that examine should look similar to down below.
+  
+  ![tcp packets](https://github.com/user-attachments/assets/8e0cac63-5911-4f4d-9b30-3d875550841c)
+
   Step 3:
   Retrieve login attempts outside of Mexico.
   
