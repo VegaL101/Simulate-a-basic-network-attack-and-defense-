@@ -110,7 +110,7 @@ If the firewall is configured properly, you should encounter the message 'Host s
 
 ##
 
-##Summary
+## Summary
 
 This project offers a fundamental overview of the process for executing a network attack and establishing defensive measures. By leveraging basic tools and configurations, it provides a understanding on how to conduct a network scan, implement firewall rules, and assess the protection mechanisms in place. This hands-on exercise highlights key concepts in network security, demonstrating how to identify potential vulnerabilities, fortify defenses, and ensure that your security strategies are effectively mitigating threats.
 
