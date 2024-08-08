@@ -86,11 +86,14 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
   Defend
 
   Now in this step we'll be going over how to defend against this kind of aggressive scan.<brr> On your Ubuntu VM we will be installing a UFW which stands for uncomplicated firewall that we will enable and configure.
-  <br> The command needed is: 'sudo apt install ufw' to install the firewall. Next we can enable it by typing the command: 'sudo ufw enable'.
+  <br> The command needed is: 'sudo apt install ufw' to install the firewall. Next we can enable it by typing the command: 'sudo ufw enable'.<br> You should also enter the command: 'sudo ufw enable ssh' this adds a rule to the UFW 
+  configuration to allow incoming traffic on the default SSH port (port 22). It ensures that SSH connections can reach your server.
 
   ![ufw install ubuntu](https://github.com/user-attachments/assets/f1e7941c-5aa7-4608-a367-b33b40c4d494)
 
+##
 
+Now that you've done everything about you can check the status of your UFW to make sure everything is up and running. To do this enter the command: 'sudo ufw status'
 
 
 
