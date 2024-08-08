@@ -15,7 +15,7 @@ This project will not only help us understand the vulnerabilities within our net
 - Learned how to use tools to identify weaknesses in a network.
 - Gain hands-on experience in configuring and managing security measures such as firewalls.
 - Learn how to monitor network traffic for signs of suspicious or malicious activity.
-- Practice ethical hacking techniques to exploit vulnerabilities in a controlled environment.  
+  
   
 
 
