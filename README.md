@@ -72,7 +72,7 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
 
   ##
 
-  Now we go back to Wireshark running on your Ubuntu VM YOU should see a bunch of tcp packets that wireshark has captured that examine should look similar to down below.
+  Now we go back to Wireshark running on your Ubuntu VM YOU should see a bunch of tcp packets (red and grey) that wireshark has captured that you can examine. It should look similar to down below.
   
   ![tcp packets](https://github.com/user-attachments/assets/8e0cac63-5911-4f4d-9b30-3d875550841c)
 
@@ -80,59 +80,15 @@ To simulate our attack, we first need to obtain the IP address of our Ubuntu mac
 
   ![tcp packets going back to normal](https://github.com/user-attachments/assets/c75c1a8b-65d5-4180-9808-a9fdc7e66ca9)
 
-  
+  ##
+
   Step 3:
-  Retrieve login attempts outside of Mexico.
-  
-  Login attempts outside of Mexico also need to be looked up due to suspicious activity.
-  
-  ![sql portfolio 3](https://github.com/VegaL101/computer-updates-lab/assets/166334918/0249c5d3-1ebc-4e9b-86e7-e762e82732a1)
-  
-  FIrst i selected all data from the log_in_attempts table. Then, I used a WHERE  with NOT to retrieve login attempts everywhere but Mexico . I used LIKE with MEX% to find anything that starts with “Mex”  since both MEX and MEXICO can appear on the dataset. 
-  
-  
+  Defend
 
-  
-  Step 4:
-  Retrieve employees in Marketing.
-  
-  Certain employees in the marketing department located in the east building need their systems to be updated. To do this I need to create a new query. 
-  
-  ![sql portfolio4](https://github.com/VegaL101/computer-updates-lab/assets/166334918/980714e7-7e94-4ac1-b61a-d12cca4a71bb)
-  
-  This query returns all employees in the Marketing department in the East building. I select all data from the employees table. Then, I used a WHERE with AND to filter for employees who work in the Marketing department and in the East building. I used LIKE with East% since there is more than one office in the east building. I then received the data needed to find out who has yet to update their systems.
-  
-  
-  
-  Step 5:
-  Retrieve employees in Finance or Sales.
-  
-  systems in the Finance and Sales departments also need to be updated. The query returns employees in the Finance and Sales departments.
-  
-  ![portfolio5](https://github.com/VegaL101/computer-updates-lab/assets/166334918/03c97169-b1ee-4339-8444-faa31d408c97)
-  
-  Again I start by selecting all data from the employees table. Then, I used a WHERE  with OR to filter for employees who are in sales and finance. With this query I can find employees in either department.
-  Retrieve all employees not in IT
-  A security update needs to be done on all employees except those in the IT department.
-  
-  
-  
-  Step 6:
-  Retrieve all employees not in IT
-  
-  A security update needs to be done on all employees except those in the IT department.
-  
-  ![sql 6](https://github.com/VegaL101/computer-updates-lab/assets/166334918/512b9716-6f59-431f-b031-8179db973824)
-  
-  
-  Similar to the query from earlier i return all employees not in the Information Technology department. First, I started by selecting all data from the employees table. Then, I used a WHERE  with NOT to filter for employees not in this department.
-  
-  
-  Summary:
+  Now in this step we'll be going over how to defend against this kind of aggressive scan.<brr> On your Ubuntu VM we will be installing a UFW which stands for uncomplicated firewall that we will enable and configure.
+  <br> The command needed is: 'sudo apt install ufw' to install the firewall. Next we can enable it by typing the command: 'sudo ufw enable'.
 
-I created multiple queries to help find information regarding login attempts and employee systemsI. Any data related to login attempts was to investigate suspicious activity and any data involving employee machines was to update any systems that can prove a security risk.
-
-
+  ![ufw install ubuntu](https://github.com/user-attachments/assets/f1e7941c-5aa7-4608-a367-b33b40c4d494)
 
 
 
