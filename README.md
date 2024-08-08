@@ -103,11 +103,16 @@ UFW (Uncomplicated Firewall) offers flexible options and can be configured as yo
 ##
 
 Now to test if an aggressive network scan from our Kali Linux VM will successfully reach the Ubuntu VM after configuring the firewall,  we will again use the 'nmap -A' command.<br>
+
 If the firewall is configured properly, you should encounter the message 'Host seems down. If it is really up, but blocking our ping probes, try -pn' This indicates that the firewall has successfully defended the system. <br> It should look like the example below.
 
 ![nmap fail](https://github.com/user-attachments/assets/1e5987ae-ba01-4d9c-a3ce-569a6d1bafeb)
 
 ##
+
+##Summary
+
+This project offers a fundamental overview of the process for executing a network attack and establishing defensive measures. By leveraging basic tools and configurations, it provides a understanding on how to conduct a network scan, implement firewall rules, and assess the protection mechanisms in place. This hands-on exercise highlights key concepts in network security, demonstrating how to identify potential vulnerabilities, fortify defenses, and ensure that your security strategies are effectively mitigating threats.
 
 
 
