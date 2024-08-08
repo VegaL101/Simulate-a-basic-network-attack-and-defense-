@@ -4,7 +4,7 @@
 
 In this project, we aim to simulate a network attack and learn how to defend against such threats. Utilizing the virtual machines previously configured in my <a href="https://github.com/VegaL101/Setting-up-a-basic-home-lab">"setting up a basic home lab"</a> project, In this scenario:
 
-The Ubuntu VM will act as the defending system, tasked with protecting against potential threats.<br>
+The Ubuntu VM will act as the defending system, tasked with protecting against a network attack.<br>
 The Kali Linux VM will serve as the attacker, simulate a network attack to test and evaluate our defensive measures.<br>
 This project will not only help us understand the vulnerabilities within our network but also improve our ability to deploy effective countermeasures.
 
